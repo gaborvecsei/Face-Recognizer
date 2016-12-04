@@ -14,6 +14,8 @@ This is my Thesis at the University for the final BSc semester.
 
 - **OpenCV** - 2.4.
 - **Python** - 2.7.
+- **xlsxwriter** package (`pip install xlsxwriter`)
+- **pandas** package (`pip install pandas`)
 
 Install OpenCV as you can see on the [offical site](http://opencv.org/).
 Or you can use [Anaconda](https://anaconda.org/) enviroment for easy setup.
@@ -41,6 +43,7 @@ After the setup you should check *settings_for_recognition.json* because there y
 cascades/
 	hc_face.xml
 input_images/
+	It can be empty if you prepare data with a webcamera
 	Peter/
 		peter1.jpg
 		peter2.jpg
