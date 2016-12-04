@@ -1,9 +1,4 @@
-# Thesis
 # Facial Recognition System Designed for School, Business Environment
-
---------------------------------
-
-# Face Recognizer
 
 This is my Thesis at the University for the final BSc semester.
 
