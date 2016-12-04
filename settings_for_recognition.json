@@ -1,0 +1,13 @@
+{
+	"input_folder": "input_images",
+	"output_folder": "output_images",
+	"face_cascade_path":"cascades/hc_face.xml",
+	"eye_cascade_path":"cascades/hc_eye.xml",
+	"resize_for_training":52,
+	"saved_model_path":"saved_model/trainedModel.yml",
+	"name_array_path":"saved_model/peopleNames.npy",
+	"minConfidanceForPrediction":2000,
+	"predictionAccuracyNumber":30,
+	"minNeighbors":5,
+	"scaleFactor":1.3
+}
