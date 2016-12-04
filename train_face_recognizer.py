@@ -29,6 +29,16 @@ if not os.path.isdir(trainFolder) or not os.path.exists(trainFolder):
     print "Couldn't find the train folder where we store the prepared images!"
     sys.exit(1)
 
+# Check if we have training data so we have to count the sub-folders in the training folder
+numOfSubDirs = 0
+subDirs = os.listdir(trainFolder)
+for sub in subDirs:
+    if os.path.isdir(os.path.join(trainFolder, sub)):
+        numOfSubDirs += 1
+if numOfSubDirs == 0:
+    print "There is no training data in the {0} folder".format(trainFolder)
+    sys.exit(1)
+
 trainImages = []
 # Labels for training
 labels = []
