@@ -30,14 +30,21 @@ if not os.path.isdir(trainFolder) or not os.path.exists(trainFolder):
     sys.exit(1)
 
 # Check if we have training data so we have to count the sub-folders in the training folder
+# And in every sub-folder we have to count the images
 numOfSubDirs = 0
+numOfImages = 0
 subDirs = os.listdir(trainFolder)
 for sub in subDirs:
     if os.path.isdir(os.path.join(trainFolder, sub)):
         numOfSubDirs += 1
+        numOfImages = len(os.listdir(os.path.join(trainFolder, sub)))
+        if numOfImages == 0:
+            print "In {0} folder there are no images! Check it!".format(os.path.join(trainFolder, sub))
+            sys.exit(1)
 if numOfSubDirs == 0:
     print "There is no training data in the {0} folder".format(trainFolder)
     sys.exit(1)
+
 
 trainImages = []
 # Labels for training
