@@ -4,6 +4,10 @@ This is my Thesis at the University for the final BSc semester.
 
 -------------------------------
 
+## Thesis
+
+[Read my Thesis here](https://github.com/gaborvecsei/Face-Recognizer/blob/master/documentation/Arcfelismero_rendszer_kialakitasa_Vecsei_Gabor.pdf)
+
 ## Setup
 
 ### Required
@@ -67,12 +71,9 @@ documentation/
 
 Gábor Vecsei
 
-[Personal Blog](https://gaborvecsei.wordpress.com/)
-
-[Github](https://github.com/gaborvecsei)
-
-[LinkedIn](https://www.linkedin.com/in/gaborvecsei)
-
-Email: vecseigabor.x@gmail.com
+- [Personal Blog](https://gaborvecsei.wordpress.com/)
+- [Github](https://github.com/gaborvecsei)
+- [LinkedIn](https://www.linkedin.com/in/gaborvecsei)
+- Email: vecseigabor.x@gmail.com
 
 2016.12.09.
